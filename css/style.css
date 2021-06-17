@@ -1,0 +1,400 @@
+/* ************** HEADER START ********************* */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.booking1 {
+    background-color: rgb(219, 226, 226);
+
+    box-shadow: 1px 2px 15px rgba(12, 36, 80, 1);
+}
+.booking p{
+    color: yellow;
+    animation: example 2s 0s infinite;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+@keyframes example {
+    0%{
+        color: red;
+    }
+    25%{
+        color: blue;
+    }50%{
+        color: yellow;
+    }100%{
+        color: black;
+    }
+}
+nav{
+    background: rgba(12, 36, 80, 1);
+    color: white; 
+    box-shadow: 1px 2px 10px black;  
+    position: fixed;
+    margin-top: 45px;
+}
+.navbar{
+    padding: 5px;
+}
+.navbar .navbar-brand{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.collapse ul li{
+    padding: 5px 10px;
+}
+.collapse ul li a{
+    font-size: 20px;
+    color: white;
+}
+.navbar-toggler{
+    background-color:cadetblue;
+}
+.user p{
+    font-weight: 600;
+}
+.user p a:hover{
+    text-decoration: none;
+}
+.active{  
+    font-weight: bolder;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.bar i{
+    color: black;
+    font-weight: 600;
+}
+
+.heading{
+    background-color: rgba(12, 36, 80, 1);
+}
+/* ************** HEADER END ********************* */
+/* ************** HOME START ********************* */
+.carousel-inner ,carousel-item{
+    width: 100%;
+    height: 400px;    
+    overflow: hidden;
+}
+@media screen and (max-width: 580px) {
+    .carousel-inner ,carousel-item{
+        width: 100%;
+        height: 250px;    
+        overflow: hidden;
+    }
+}
+.container-fluid {
+    overflow: hidden;
+}
+.carousel-inner ,carousel-item img{
+    width: 100%;
+    position: relative;
+    box-shadow: 1px 5px 10px 10px black;
+}
+.service p a{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.service p a:hover{
+    text-decoration: none;
+}
+section{
+    background: rgb(219, 226, 226);
+    height: auto;
+}
+/*  service section */
+.card{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    background-color: #897FBA;
+    box-shadow: 1px 4px 2px black;
+    border-radius: 10px;
+    transition: all 2s;
+}
+.card:hover{
+    transform: scale(0.8);
+}
+.card h4{
+    color: white;
+    margin-top: 30px;   
+}
+.template{
+    width: 250px;
+    background: rgba(255,255,255, 0.7);
+    position: absolute;
+    top: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.template h4{
+    position: relative;
+    bottom: 10px;
+    color: black;
+}
+.service-img1{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) url("/image/plumbing.jpg");
+}
+.card:hover{
+    text-decoration: none;
+}
+.card2{
+    background-color: #F29B34;
+    /* background-image: url("/image/about3.jpeg"); */
+}
+.card3{
+    background-color: #64DDBB;
+}
+.card4{
+    background-color: #FF8B55;
+}
+.card5{
+    background-color: #fab1a0;
+    /* background-image: url("/image/about3.jpeg"); */
+}
+.card6{
+    background-color: #2d3436;
+}
+.card7{
+    background-color: #badc58;
+}
+/* service section */
+
+/* about section */
+.service p a{
+    font-weight: bolder;
+}
+.about P{
+    font-weight: bold;
+    line-height: 30px;
+}
+.about p a:hover{
+    text-decoration: none;
+}
+/* about section */
+
+/* our-guarantee start */
+.our-guarantee p{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+.gurantee .icon i{
+    font-size: 60px;
+}
+.gurantee:hover{
+    background-color: #897FBA;
+    transition: all 2s;
+    box-shadow: 1px 2px 10px 1px black;
+    color: white;
+}
+/* our-guarantee end */
+.user-dashboard h3{
+    color: blue;
+}
+.user-dashboard p{
+    font-weight: bolder;
+    color: green;
+}
+/* ************** HOME END ********************* */
+/* ************** SERVICE START ********************* */
+.book p{
+   text-align: justify;
+   
+}
+.books p{
+    text-align: justify;
+    
+ }
+.book .icon-service{
+    overflow: hidden;
+}
+.book .icon-service img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: all 2s;
+}
+
+/* carpentary */
+@media screen and (max-width: 900px) {
+    .carpentary .book p{
+        height: 150px;
+    }
+  }
+/* carpentary */
+
+/* ************** SERVOCE END ********************* */
+/* ************** ABOUT START ********************* */
+section{
+    background-color: rgb(219,226,226);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.about-p{
+    line-height: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+.about-image{
+    width: 100%;
+    height: auto;
+    padding: 25px;
+}
+.about-image img:hover{
+    box-shadow: 5px 10px 10px rgba(12, 36, 80, 1);
+}
+.about-image img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px black;
+}
+/* ************** ABOUT END ********************* */
+/* ************** CONTACT START ********************* */
+.contact-us{
+    background-color: rgb(219,226,226);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-me{
+    background-color: white;
+    /* padding: 10px; */
+    box-shadow: 1px 2px 5px black;
+}
+.contact-me .contact-img img{
+    height: 50vh;
+    padding: 10px;
+    
+}
+.form label{
+    font-weight: bold;
+}
+.btn{
+    background-color: rgba(12,36,80,1);
+    color: white;
+    font-weight: 700;
+    transition: all 1s;
+}
+.btn:hover{
+    background-color: white;
+    color: rgba(12,36,80,1);
+}
+/* ************** CONTACT END ********************* */
+/* ************** LOGIN START ********************* */
+.login-img img{
+    width: 100%;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.login-form{
+    background: rgb(219, 226, 226);
+    padding: 20px;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.login-row{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:5px 5px 10px rgba(12, 36, 80, 1);
+}
+/* ************** LOGIN END ********************* */
+/* ************** REGISTER START ********************* */
+.signup-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+}
+.signup-form{
+    background: rgb(219, 226, 226);
+    padding: 20px;
+    height: auto;
+}
+.signup-row{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:5px 5px 10px rgba(12, 36, 80, 1);
+}
+/* ************** REGISTER END ********************* */
+/* ************** REGISTER SERVICE START ********************* */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(219,226,226);
+    width: 100%;
+    height: auto;
+}
+.warning {
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fdcb6e;
+}
+.warning p i{
+    color: #ffa502;
+}
+
+.partner{
+    background-color: white;
+ 
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 1px 1px 10px black;
+}
+/* ************** REGISTER SREVICE END ********************* */
+/* ************** PLUMBING SERVICE START *********************/
+section{
+    background-color: rgb(219,226,226);
+    width: 100%;
+    height: auto;
+}
+
+
+/* techinician user end */
+/* ************** PLUMBING SERVICE END *********************/
+/* ************** FOOTER START ********************* */
+footer{
+    background-color: rgba(12, 36, 80, 1);;
+    color: white;
+    /* box-shadow: inset 1px 2px 8px  white; */
+}
+.contactus p a{
+    font-weight: bold;
+}
+.quick-link p {
+    font-weight: 600;
+}
+.quick-link p a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(219, 226, 226);
+}
+.social-media p a{
+    color: white;
+    font-weight: bold;
+}
+.social-media p  a:hover{
+    text-decoration: none;
+  
+}
+.social-media p a:hover{
+
+    font-weight: bold;
+}
+.line{
+    background-color: white;
+}
+/* ************** FOOTER END ********************* */
